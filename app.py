@@ -5,17 +5,17 @@ import streamlit as st
 # from contact_function import *
 # from todo_function import *
 # #EDA Pkgs
-# import pandas as pd
-# import os
+import pandas as pd
+import os
 # import datetime
 # import time
-# import base64
-# # import matplotlib
+import base64
+# import matplotlib
 # # matplotlib.use('Agg')
-# import plotly.express as px
-# from plotly.figure_factory import create_gantt
+import plotly.express as px
+from plotly.figure_factory import create_gantt
 # # import plotly.graph_objs as go
-# from PIL import Image
+from PIL import Image
 
 
 #download csv/text
