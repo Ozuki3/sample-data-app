@@ -332,8 +332,8 @@ def main():
 						st.write(list_of_todo_property)
 						for ppt in list_of_property:
 							if ppt in list_of_todo_property:
-								doing_start = df.Finish[(df["Task"] == ppt) & (df["Status"] == 'Done')].to_list()[0]
-								todo_start = df.Finish[(df["Task"] == ppt) & (df["Status"] == 'Doing')].to_list()[0]
+								doing_start = df.Finish[(df["Task"] == ppt) & (df["Status"] == 'Done')].tolist()[0]
+								todo_start = df.Finish[(df["Task"] == ppt) & (df["Status"] == 'Doing')].tolist()[0]
 								done_start = get_ppt_start(ppt)[0][0]
 							else:
 								doing_start = None
