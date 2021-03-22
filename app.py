@@ -1,7 +1,7 @@
 #Core Pkgs
 import streamlit as st
 # # import streamlit.components.v1 as stc
-# from user_function import *
+from user_function import *
 # from contact_function import *
 # from todo_function import *
 # #EDA Pkgs
@@ -35,7 +35,6 @@ from PIL import Image
 
 
 def main():
-	st.subheader("Hello!")
 # 	#home page
 	img = "imgs/jleecolor200.png"
 	st.markdown("""
@@ -54,9 +53,8 @@ def main():
 				""",
 				unsafe_allow_html=True
 				)
-	#account = st.sidebar.selectbox("Select an account",["Market Infomation","JLee Team"])
-	#
-	#
+	account = st.sidebar.selectbox("Select an account",["Market Infomation","JLee Team"])
+	
 	# #Customer page
 	# if account == "Market Infomation":
 	# 	# username = st.sidebar.text_input("Username")
