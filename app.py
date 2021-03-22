@@ -197,7 +197,7 @@ def main():
 							type = task_result[0][6]
 							comment = task_result[0][7]
 							comment_title = "Input/Edit Comment"
-							submit = 'Add Task'
+							submit = 'Update Task'
 						else:
 							title = "Input Task"
 							content = ""
@@ -209,7 +209,7 @@ def main():
 							type = ""
 							comment = ""
 							comment_title = "Add Comment"
-							submit = 'Update Task'
+							submit = 'Add Task'
 						#todolist layout
 						clm1, clm2, clm3 = st.beta_columns(3)
 						with clm1:
@@ -229,7 +229,7 @@ def main():
 							task = st.text_input(title, content)
 						task_comment = st.text_area(comment_title,comment)
 						#submit updated info
-						clm1, clm2 = st.beta_columns([8, 1])
+						clm1, clm2 = st.beta_columns([4.7, 1])
 						with clm1:
 							if st.button(submit):
 								if submit == "Add Task":
