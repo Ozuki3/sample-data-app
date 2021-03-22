@@ -318,8 +318,8 @@ def main():
 						list_of_property = [i[0] for i in get_ppt_names()]
 						# st.write(list_of_property)
 						for ppt in list_of_property:
-							doing_start = df.Finish[(df["Task"] == ppt) & (df["Status"] == 'Done')].to_list()[0]
-							todo_start = df.Finish[(df["Task"] == ppt) & (df["Status"] == 'Doing')].to_list()[0]
+							doing_start = df.Finish[(df["Task"] == ppt) & (df["Status"] == 'Done')].tolist()[0]
+							todo_start = df.Finish[(df["Task"] == ppt) & (df["Status"] == 'Doing')].tolist()[0]
 							done_start = get_ppt_start(ppt)[0][0]
 							df.Start.loc[(df["Task"] == ppt) & (df["Status"] == 'Doing')] = doing_start
 							df.Start.loc[(df["Task"] == ppt) & (df["Status"] == 'ToDo')] = todo_start
