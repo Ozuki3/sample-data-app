@@ -1,8 +1,8 @@
 # Sample data app for JLee Luxury Real Estate Team  
 
-Step 1: Select an account, input your username and password and check the login box.
-Step 2: Check the login box again to log out.
-Step 3：Click the cross at the upper right to hide the sidebar.
+Step 1: Select an account, input your username and password and check the login box. \n
+Step 2: Check the login box again to log out. \n
+Step 3：Click the cross at the upper right to hide the sidebar. \n
 
 # Market Infomation
 Step 1: All the plots are controlled by 'Select Options' under the top expandar, select one or more columns and view plots below.
