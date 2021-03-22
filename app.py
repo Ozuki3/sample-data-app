@@ -37,24 +37,24 @@ import streamlit as st
 def main():
 	st.subheader("Hello!")
 # 	#home page
-# 	img = "imgs/jleecolor200.png"
-# 	st.markdown("""
-# 				<style>.container {display: flex;}
-# 				.logo-text {font-weight:700 !important;font-size:35px !important;color: purple;padding-top: 58px !important;}
-# 				.logo-img {float:left;}
-# 				</style>
-# 				""",
-# 				unsafe_allow_html=True
-# 				)
-# 	st.markdown(f"""
-# 				<div class="container">
-# 					<img class="logo-img" src="data:image/png;base64,{base64.b64encode(open(img, "rb").read()).decode()}">
-# 					<p class="logo-text">JLEE LUXURY REAL ESTATE </p>
-# 				</div>
-# 				""",
-# 				unsafe_allow_html=True
-# 				)
-	# account = st.sidebar.selectbox("Select an account",["Market Infomation","JLee Team"])
+	img = "imgs/jleecolor200.png"
+	st.markdown("""
+				<style>.container {display: flex;}
+				.logo-text {font-weight:700 !important;font-size:35px !important;color: purple;padding-top: 58px !important;}
+				.logo-img {float:left;}
+				</style>
+				""",
+				unsafe_allow_html=True
+				)
+	st.markdown(f"""
+				<div class="container">
+					<img class="logo-img" src="data:image/png;base64,{base64.b64encode(open(img, "rb").read()).decode()}">
+					<p class="logo-text">JLEE LUXURY REAL ESTATE </p>
+				</div>
+				""",
+				unsafe_allow_html=True
+				)
+	#account = st.sidebar.selectbox("Select an account",["Market Infomation","JLee Team"])
 	#
 	#
 	# #Customer page
