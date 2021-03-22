@@ -166,7 +166,7 @@ def main():
 				st.warning("Incorrect Username/Password. Please try again or request technical support at xxx-xxxx-xxxx.")
 			else:
 				st.sidebar.subheader(" ")
-				task = st.sidebar.selectbox("Select a task",["Todo List","Contacts","Sign Up"])
+				task = st.sidebar.selectbox("Select a task",["ToDo List","Contacts","Sign Up"])
 				st.subheader("")
 
 				if task == "ToDo List":
