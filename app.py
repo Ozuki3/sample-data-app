@@ -265,7 +265,7 @@ def main():
 							with clm1:
 								if st.button(submit):
 									if submit == "Add":
-										add_contact(Property,Start_Date,End_Date)
+										add_property(Property,Start_Date,End_Date)
 										st.success("Added: {}".format(Property))
 									elif submit == "Update":
 										edit_ppt(Property,Start_Date,End_Date,property,start,end)
