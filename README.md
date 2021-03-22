@@ -35,5 +35,10 @@ Step 2：Select a task at the sidebar after login.
   Step 2: Administrator can create a pair of customized username and password for his/her customer's login of the 'Market information'.  
   
   
+ # Test Username & Password:  
+ Username: test  
+ Password: 123456  
+ Administrator Password: 654321  
+  
   
   
