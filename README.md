@@ -1,4 +1,4 @@
-# Sample data app for JLee Real Estate Team    
+# Sample data app    
 
 Step 1: Select an account, input your username and password and check the login box.  
 Step 2: Check the login box again to log out.  
