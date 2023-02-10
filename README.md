@@ -13,7 +13,7 @@ Step 4: Move the slide bar of the smaller plot to locate date in specific date r
 # Project Information  
 Step 1: Open the sidebar and select another account, input password login again.   
 Step 2：Select a task at the sidebar after login.  
-  # Todo List  
+  ## Todo List  
   Step 1: Click the plus or minus at right to expand or hinde each block.  
   Step 2: Expand 'Task Table' to check newest 10 tasks, check the 'Select Options' to select one or more columns of task table and click 'Download' at lower left to download.   
   Step 3: All the plots are controlled by 'Select Options' under the top expandar, if selected columns include 'Payment' column, 'Payment' expander will appear below.  
@@ -23,7 +23,7 @@ Step 2：Select a task at the sidebar after login.
   Step 7: Open the sidebar and check the 'Add/Edit Task' to add, update and delete tasks.   
   Step 8: Expand 'Select Options' to find an existing task by date or task content, saved info will appear below, click 'Update' to update or click 'Delete' to delete.  
   Step 9: Input task infomation directly and click 'Add Task' to create a new task, the date can be selected from a build in calendar.  
-  # Contacts  
+  ## Contacts  
   Step 1: Open the sidebar and select 'Contacts', 'Search Contact' will be the default choice under this task.  
   Step 2: Contact can be searched by multi characteristics and the contact table with name, phone and email will display below.  
   Step 3: Expand 'More information' to get address, gender, race etc. of the selected contact table and use select bar to check photo.  
