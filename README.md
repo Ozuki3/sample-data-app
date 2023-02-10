@@ -1,4 +1,6 @@
-# Sample data app    
+# Sample data app
+
+Demo link: https://youtu.be/s6Xs1yIZUhQ
 
 Step 1: Select an account, input your username and password and check the login box.  
 Step 2: Check the login box again to log out.  
