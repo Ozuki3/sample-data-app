@@ -10,7 +10,7 @@ Step 2: Click the plus or minus at right to expand or hinde each block.
 Step 3: Click icons at the upper right of the plot to download, zoom etc.  
 Step 4: Move the slide bar of the smaller plot to locate date in specific date range.  
 
-# JLee Team  
+# Project Information  
 Step 1: Open the sidebar and select another account, input password login again.   
 Step 2：Select a task at the sidebar after login.  
   # Todo List  
